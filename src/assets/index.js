@@ -20,9 +20,10 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import greybox from "./gry2.svg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/robot.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -77,6 +78,7 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
+  greybox,
   check,
   check2,
   loading1,
