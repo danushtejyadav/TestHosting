@@ -9,10 +9,10 @@ const Benefits = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
-        <Heading
+        {/* <Heading
           className="md:max-w-md lg:max-w-2xl"
           title="Greybox"
-        />
+        /> */}
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
