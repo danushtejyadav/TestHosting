@@ -285,7 +285,7 @@ export const benefits = [
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
-  
+    
   {
     id: "5",
     title: "Monitoring and Protection",
