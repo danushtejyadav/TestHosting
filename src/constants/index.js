@@ -34,42 +34,44 @@ import {
   telegram,
   twitter,
   yourlogo,
+  Google,
+  Apple,
+  Ather,
+  axio,
+  BasF,
+  coindcx,
+  Flipkart,
+  Giva,
+  Lockheedmartin,
+  McDonalds,
+  Microsoft,
+  Nokia,
+  UnitedNations,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "What we offer",
+    url: "#what_we_offer",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Who we are",
+    url: "#who_we_are",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Clients",
+    url: "#clients",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    title: "Blogs",
+    url: "#blogs",
   },
 ];
+
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
@@ -128,118 +130,99 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Black box testing",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Gray box testing",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "White box testing",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
+    title: "Google",
+    icon: Google,
+    width: 45,
+    height: 40,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
+    title: "Apple",
+    icon: Apple,
+    width: 45,
+    height: 40,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
+    title: "Microsoft",
+    icon: Microsoft,
+    width: 45,
+    height: 40,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
+    title: "Flipkart",
+    icon: Flipkart,
+    width: 45,
+    height: 40,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
+    title: "axio",
+    icon: axio,
+    width: 45,
+    height: 40,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    title: "McDonalds",
+    icon: McDonalds,
+    width: 45,
+    height: 40,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
-    height: 34,
+    title: "UnitedNations",
+    icon: UnitedNations,
+    width: 45,
+    height: 40,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
+    title: "Ather",
+    icon: Ather,
+    width: 45,
+    height: 40,
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
+export const clientLogos = [
+  { src: Google, alt: "Google" },
+  { src: Apple, alt: "Apple" },
+  { src: Microsoft, alt: "Microsoft" },
+  { src: Flipkart, alt: "Flipkart" },
+  { src: Nokia, alt: "Nokia" },
+  { src: Ather, alt: "Ather" },
+  { src: axio, alt: "axio" },
+  { src: BasF, alt: "BasF" },
+  { src: Giva, alt: "Giva" },
+  { src: Lockheedmartin, alt: "Lockheedmartin" },
+  { src: coindcx, alt: "coindcx" },
+  { src: McDonalds, alt: "McDonalds" },
+  { src: UnitedNations, alt: "UnitedNations" },
 ];
+
 
 export const benefits = [
   {

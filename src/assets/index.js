@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import Greybox_logo from "./Greybox_logo.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -20,7 +20,7 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
-import greybox from "./gry2.svg";
+import greybox from "./gry69.svg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.png";
@@ -36,6 +36,19 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import Google from "./collaboration/Google.png";
+import Apple from "./collaboration/Apple.png";
+import Ather from "./collaboration/Ather.jpg";
+import axio from "./collaboration/axio.jpg";
+import BasF from "./collaboration/BasF.png";
+import coindcx from "./collaboration/coindcx.jpg";
+import Flipkart from "./collaboration/Flipkart.png";
+import Giva from "./collaboration/Giva.jpg";
+import Lockheedmartin from "./collaboration/Lockheedmartin.png";
+import McDonalds from "./collaboration/McDonalds.png";
+import Microsoft from "./collaboration/Microsoft.png";
+import Nokia from "./collaboration/Nokia.jpg";
+import UnitedNations from "./collaboration/UnitedNations.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -77,7 +90,8 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  Greybox_logo,
+  Google,
   greybox,
   check,
   check2,
@@ -146,4 +160,16 @@ export {
   instagram,
   telegram,
   twitter,
+  Apple,
+  Ather,
+  axio,
+  BasF,
+  coindcx,
+  Flipkart,
+  Giva,
+  Lockheedmartin,
+  McDonalds,
+  Microsoft,
+  Nokia,
+  UnitedNations,
 };

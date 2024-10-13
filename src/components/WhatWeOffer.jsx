@@ -5,15 +5,10 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
-const Benefits = () => {
+const WhatWeOffer = () => {
   return (
-    <Section id="features">
+    <Section id="what_we_offer" className="pt-20"> {/* Add padding at the top */}
       <div className="container relative z-2">
-        {/* <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Greybox"
-        /> */}
-
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
@@ -68,4 +63,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default WhatWeOffer;

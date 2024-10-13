@@ -1,7 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
-import { brainwave } from "../assets";
 import { greybox } from "../assets"; // Ensure this import is correct
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -38,7 +36,6 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block flex items-center w-[12rem] xl:mr-8" href="#hero">
-          {/* <img src={brainwave} width={100} height={50} alt="Brainwave" className="mr-2" /> */}
           <img src={greybox} width={150} height={100} alt="Greybox" />
         </a>
 
@@ -65,18 +62,11 @@ const Header = () => {
               </a>
             ))}
           </div>
-
           <HamburgerMenu />
         </nav>
 
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        <Button className="ml-auto hidden lg:flex" href="#order">
+          Order
         </Button>
 
         <Button
