@@ -1,20 +1,28 @@
-/* src/styles/client.css */
+/* Wrapper around the logos */
+.logo-container {
+  overflow: hidden;
+  width: 100%; /* Ensures it fits the container */
+}
 
-.container {
-    /* Add any styles you need for the client container */
+.logo-marquee {
+  display: flex;
+  gap: 20px; /* Adjust spacing between logos */
+  animation: scroll-marquee 60s linear infinite; /* Smooth continuous scroll, adjust speed */
+  width: max-content; /* Makes sure the width adapts to the number of logos */
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Infinite horizontal scroll animation */
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0);
   }
-  
-  .animate-scroll {
-    display: flex;
-    animation: scroll 20s linear infinite; /* Adjust duration for speed */
+  100% {
+    transform: translateX(-100%); /* Scroll by full width for seamless loop */
   }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%); /* Match this with the width of the logos */
-    }
-  }
-  
+}

@@ -29,13 +29,6 @@ import heroBackground from "./hero/hero-background.jpg";
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
 import Google from "./collaboration/Google.png";
 import Apple from "./collaboration/Apple.png";
 import Ather from "./collaboration/Ather.jpg";
@@ -44,18 +37,31 @@ import BasF from "./collaboration/BasF.png";
 import coindcx from "./collaboration/coindcx.jpg";
 import Flipkart from "./collaboration/Flipkart.png";
 import Giva from "./collaboration/Giva.jpg";
-import Lockheedmartin from "./collaboration/Lockheedmartin.png";
 import McDonalds from "./collaboration/McDonalds.png";
 import Microsoft from "./collaboration/Microsoft.png";
 import Nokia from "./collaboration/Nokia.jpg";
-import UnitedNations from "./collaboration/UnitedNations.png";
+import apollo from "./collaboration/apollo.png";
+import awign from "./collaboration/awign.png";
+import bluestone from "./collaboration/bluestone.png";
+import consensys from "./collaboration/consensys.png";
+import eatsure from "./collaboration/eatsure.png";
+import fareye from "./collaboration/fareye.png";
+import glynk from "./collaboration/glynk.jpg";
+import kindlife from "./collaboration/kindlife.jpg";
+import lendingkart from "./collaboration/lendingkart.jpg";
+import nciipc from "./collaboration/nciipc.png";
+import pankhuri from "./collaboration/pankhuri.png";
+import polygon from "./collaboration/polygon.png";
+import scapic from "./collaboration/scapic.png";
+import shadowfax from "./collaboration/shadowfax.png";
+import wework from "./collaboration/wework.png";
+import woodenstreet from "./collaboration/woodenstreet.png";
+import xpressbees from "./collaboration/xpressbees.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
 
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
@@ -120,18 +126,9 @@ export {
   curve1,
   curve2,
   discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
   service1,
   service2,
   service3,
-  lines,
-  stars,
   coins,
   done,
   hero,
@@ -167,9 +164,24 @@ export {
   coindcx,
   Flipkart,
   Giva,
-  Lockheedmartin,
   McDonalds,
   Microsoft,
   Nokia,
-  UnitedNations,
+  apollo,
+  awign,
+  bluestone,
+  consensys,
+  eatsure,
+  fareye,
+  glynk,
+  kindlife,
+  lendingkart,
+  nciipc,
+  pankhuri,
+  polygon,
+  scapic,
+  shadowfax,
+  wework,
+  woodenstreet,
+  xpressbees,
 };
