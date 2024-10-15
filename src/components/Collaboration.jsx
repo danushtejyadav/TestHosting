@@ -3,8 +3,20 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { useState } from "react";
+import ContactFormPopup from "./ContactFormPopup"; // Import the contact form popup
 
 const Collaboration = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false); // State to control popup visibility
+
+  const openPopup = () => {
+    setIsPopupOpen(true); // Open popup when "Try it now" is clicked
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false); // Close popup
+  };
+
   return (
     <Section crosses>
       <div className="container lg:flex">
@@ -25,7 +37,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button onClick={openPopup}>Try it now</Button> {/* Added onClick to open popup */}
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -79,6 +91,9 @@ const Collaboration = () => {
           </div>
         </div>
       </div>
+
+      {/* Contact Form Popup */}
+      <ContactFormPopup isOpen={isPopupOpen} onClose={closePopup} /> {/* Popup component */}
     </Section>
   );
 };
