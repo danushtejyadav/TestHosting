@@ -6,3 +6,5 @@ export default defineConfig({
   base: '/TestHosting/',
   plugins: [react()],
 });
+
+//hope this work
