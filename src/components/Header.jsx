@@ -6,10 +6,12 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import ContactFormPopup from "./ContactFormPopup"; // Import the contact form popup
 
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false); // State to control popup visibility
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -26,6 +28,14 @@ const Header = () => {
 
     enablePageScroll();
     setOpenNavigation(false);
+  };
+
+  const openPopup = () => {
+    setIsPopupOpen(true); // Open popup when "Get consulted" is clicked
+  };
+
+  const closePopup = () => {
+    setIsPopupOpen(false); // Close popup
   };
 
   return (
@@ -65,8 +75,8 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="ml-auto hidden lg:flex" href="#order">
-          Order
+        <Button className="ml-auto hidden lg:flex" onClick={openPopup}>
+          Get consulted
         </Button>
 
         <Button
@@ -77,6 +87,9 @@ const Header = () => {
           <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
+
+      {/* Contact Form Popup */}
+      <ContactFormPopup isOpen={isPopupOpen} onClose={closePopup} />
     </div>
   );
 };
